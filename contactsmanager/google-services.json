@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173878239394",
+    "firebase_url": "https://onfonbook-637c8.firebaseio.com",
+    "project_id": "onfonbook-637c8",
+    "storage_bucket": "onfonbook-637c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173878239394:android:07b29b7c2e92db2c",
+        "android_client_info": {
+          "package_name": "com.example.www.contactsmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173878239394-sqc70r9mq95gmcapl5gcas0mjjjb8pkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.www.contactsmanager",
+            "certificate_hash": "9a6a96c7a54720de0a38583b06e9241328ac28ce"
+          }
+        },
+        {
+          "client_id": "173878239394-b7p7lpcegmh7ie0j73qhgt884pqko324.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1xRye2H75rc6qRMq7pKcSadfSmKvBVuE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173878239394-b7p7lpcegmh7ie0j73qhgt884pqko324.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

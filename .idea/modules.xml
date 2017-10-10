@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Onfonbook.iml" filepath="$PROJECT_DIR$/Onfonbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contactsmanager/contactsmanager.iml" filepath="$PROJECT_DIR$/contactsmanager/contactsmanager.iml" />
+    </modules>
+  </component>
+</project>

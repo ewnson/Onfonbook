@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:id="@+id/homelayout"
+    tools:context="com.example.www.contactsmanager.MainActivity"
+    tools:showIn="@layout/activity_import">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbReadBtn"
+        android:text="@string/importbutton"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pbReadBtn"
+        android:id="@+id/vcfButton"
+        android:text="@string/exportbutton"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pbReadBtn"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vcfButton"
+        android:id="@+id/uploadButton"
+        android:text="@string/uploadbutton"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vcfButton"
+        android:layout_marginTop="8dp" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/vcfButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:divider="#003366"
+        android:dividerHeight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uploadButton"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

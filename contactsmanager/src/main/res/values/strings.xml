@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Contacts Manager</string>
+    <string name="custom_app_name">Onfon</string>
+    <string name="action_settings">Settings</string>
+    <string name="import_phonebook">Import contacts from phonebook</string>
+    <string name="importbutton">Click Here to load Contacts from Phonebook</string>
+    <string name="upload_phonebook">Upload contacts to remote database</string>
+    <string name="uploadbutton">Upload Contacts to Remote Server</string>
+    <string name="exportbutton">Write Contacts to local .vcf file</string>
+    <string name="welcomemessage">Welcome to the Onfon Contacts Manager! Import your contacts to start.</string>
+    <string name="no_notes">Sorry, no contacts</string>
+    <string name="confirm">OK</string>
+    <string name="save">Save to Phone</string>
+    <string name="insertbutton">Insert to Database</string>
+    <string name="title_activity_article_contract">ArticleContract</string>
+</resources>
